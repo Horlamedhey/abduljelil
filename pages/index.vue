@@ -188,7 +188,8 @@ const skills: string[] = [
               v-for="(design, i) in designs"
               :key="`design-${i}`"
               :src="design.image"
-              sizes="100% sm:300px md:320px lg:290px xl:370px"
+              sizes="100% xs:90vw sm:40vw xl:43vw"
+              class="w-full xs:w-[46.9%] sm:w-[48%] lg:w-[31%]"
             />
             <!-- <div class="w-[400px] h-[400px] rounded-xl"></div> -->
           </div>
