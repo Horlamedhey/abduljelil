@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NavItem } from "~~/components/organisms/Nav.vue.js";
+import { NavItem } from "~~/components/organisms/Nav.vue";
 // feats
 import mobile from "@/assets/img/feats/mobile-feat.svg";
 import desktop from "@/assets/img/feats/desktop-feat.svg";
