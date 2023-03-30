@@ -74,17 +74,18 @@ const skills: string[] = [
     </header>
     <main>
       <section id="home">
-        <AtomsOverlay class="lg:h-screen xl:max-h-[900px] -top-16 -z-[1]">
+        <AtomsOverlay class="-top-16 -z-[1]">
           <div
-            class="bg-cover bg-no-repeat bg-center bg-hero h-full absolute inset-0 -z-[1]"
+            class="bg-cover bg-no-repeat bg-center bg-hero absolute inset-0 -z-[1]"
           />
           <div
-            class="flex flex-col gap-20 justify-between h-full relative max-w-7xl mx-auto py-12 px-4 md:px-12 text-center"
+            class="flex flex-col gap-20 justify-between relative max-w-7xl mx-auto py-12 px-4 md:px-12 text-center"
           >
-            <div class="mt-16">
+            <div class="md:mt-16">
               <nuxt-img
                 src="img/abduljelil.webp"
-                class="w-2/3 sm:w-1/3 max-w-xs m-auto"
+                alt="abduljelil"
+                class="w-2/3 md:w-1/3 max-w-xs m-auto"
               />
               <div class="text-white">
                 <h1
@@ -188,6 +189,7 @@ const skills: string[] = [
               v-for="(design, i) in designs"
               :key="`design-${i}`"
               :src="design.image"
+              :alt="`design-${i}`"
               sizes="100% xs:90vw sm:40vw xl:43vw"
               class="w-full xs:w-[46.9%] sm:w-[48%] lg:w-[31%]"
             />
@@ -198,6 +200,7 @@ const skills: string[] = [
       </section>
       <nuxt-img
         src="img/desktop.png"
+        alt=""
         width="100vw"
       />
     </main>
