@@ -85,7 +85,7 @@ const skills: string[] = [
               <nuxt-img
                 src="img/abduljelil.webp"
                 alt="abduljelil"
-                class="w-2/3 md:w-1/3 max-w-xs m-auto"
+                class="w-2/4 sm:w-1/3 lg:w-1/4 max-w-xs m-auto"
               />
               <div class="text-white">
                 <h1
